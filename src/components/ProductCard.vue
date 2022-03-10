@@ -1,14 +1,19 @@
 <template>
-  <footer>Footer</footer>
+    <div class='product-card'>
+        Product Card
+    </div>
 </template>
 
 <script>
-export default {
-};
+    export default {
+        
+    }
 </script>
 
 <style lang="scss" scoped>
-footer {
+.product-card {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
