@@ -21,7 +21,12 @@ export default {
 
 <style>
 * {
+  /* standart zero */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* test borders */
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 </style>
