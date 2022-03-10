@@ -1,12 +1,14 @@
 <template>
     <div class='product-card'>
-        Product Card
+        {{product.title}}
     </div>
 </template>
 
 <script>
     export default {
-        
+        props: {
+            product: Object,
+        }
     }
 </script>
 
